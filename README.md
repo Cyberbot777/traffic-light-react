@@ -3,6 +3,11 @@
 An interactive, auto-cycling traffic light built with React and styled to resemble a real street light.  
 This project was created as part of a 4Geeks Academy assignment to demonstrate understanding of React hooks and dynamic component styling.
 
+## Live Demo
+
+👉 [View the deployed project](https://traffic-light-react-omega.vercel.app/)
+
+
 ## Features
 
 - Realistic vertical traffic light layout with pole
@@ -25,10 +30,6 @@ This project was created as part of a 4Geeks Academy assignment to demonstrate u
 - Apply conditional class names based on current state
 - Style components to match real-world visuals (traffic light + pole)
 - Deploy React projects with Vercel
-
-## Live Demo
-
-👉 [View the deployed project](https://traffic-light-react-omega.vercel.app/)
 
 ## Author
 
