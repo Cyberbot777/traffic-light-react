@@ -1,12 +1,35 @@
-# React + Vite
+# Traffic Light React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, auto-cycling traffic light built with React and styled to resemble a real street light.  
+This project was created as part of a 4Geeks Academy assignment to demonstrate understanding of React hooks and dynamic component styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Realistic vertical traffic light layout with pole
+- Lights cycle automatically: **green → yellow → red** every 1.5 seconds
+- Only one light is active (glowing) at a time
+- Clickable lights for manual control
+- State-driven glow effect using conditional class logic
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (via Vite)
+- JavaScript
+- CSS (inline + global)
+- Vercel (for deployment)
+
+## Learning Goals
+
+- Use `useState` to manage component state
+- Use `useEffect` with `setInterval` for auto-cycling behavior
+- Apply conditional class names based on current state
+- Style components to match real-world visuals (traffic light + pole)
+- Deploy React projects with Vercel
+
+## Live Demo
+
+👉 [View the deployed project](https://traffic-light-react-omega.vercel.app/)
+
+## Author
+
+Built by [@Cyberbot777](https://github.com/Cyberbot777)
