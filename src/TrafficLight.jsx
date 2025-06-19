@@ -1,10 +1,8 @@
-
 import React, { useState, useEffect } from "react";
 
-
 export default function TrafficLight() {
-  const colors = ["red", "yellow", "green"];
-  const [color, setColor] = useState("red");
+  const colors = ["green", "yellow", "red"];
+  const [color, setColor] = useState("green");
 
   const isActive = (c) => (color === c ? "active" : "");
 
@@ -15,25 +13,26 @@ export default function TrafficLight() {
         const nextIndex = (currentIndex + 1) % colors.length;
         return colors[nextIndex];
       });
-    }, 1500); 
+    }, 1500);
 
-    return () => clearInterval(interval); 
-  }, []);
+    return () => clearInterval(interval);
+  }, 
+);
 
   return (
     <div style={wrapper}>
       <div style={trafficBox}>
         <div
-          className={`light red ${isActive("red")}`}
-          onClick={() => setColor("red")}
+          className={`light green ${isActive("green")}`}
+          onClick={() => setColor("green")}
         ></div>
         <div
           className={`light yellow ${isActive("yellow")}`}
           onClick={() => setColor("yellow")}
         ></div>
         <div
-          className={`light green ${isActive("green")}`}
-          onClick={() => setColor("green")}
+          className={`light red ${isActive("red")}`}
+          onClick={() => setColor("red")}
         ></div>
       </div>
       <div style={pole}></div>
