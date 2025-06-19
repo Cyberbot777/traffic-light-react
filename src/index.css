@@ -1,0 +1,25 @@
+.light {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #000;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.light.red.active {
+  background-color: red;
+  box-shadow: 0 0 20px red;
+}
+
+.light.yellow.active {
+  background-color: yellow;
+  box-shadow: 0 0 20px yellow;
+}
+
+.light.green.active {
+  background-color: green;
+  box-shadow: 0 0 20px green;
+}
